@@ -37,7 +37,7 @@ $(document).ready(function(){
             }
         },
         //离开某一屏后恢复到初始效果
-        onLeave: function(link, index){
+        onLeave: function(index, nextIndex){
             switch (index){
                 case 1:
                     move('.section1 h1').scale(1).end();
